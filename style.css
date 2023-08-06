@@ -1,0 +1,103 @@
+
+/* code for the whole page */
+body{
+    font-family: 'Times New Roman', Times, serif;
+    border: #000 solid;
+    border-radius: 1rem;
+    box-shadow: 1px 10px 20px #000;
+    width: 41.5%;
+    height: 100%;
+    margin: 40px 400px;
+    justify-items: auto;
+    background: linear-gradient(#ca99fa, #eec2f0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* code for the whole page */
+
+/* code for the main container */
+.main{
+    display: relative;
+    width: 100%;
+    margin: 4rem auto;
+	height: 100%;
+    border: #000 solid;
+    align-items: stretch;
+}
+/* code for the main container */
+
+/* css code header */
+.header{
+    background: linear-gradient(115deg, gold, maroon, maroon, gold);
+    border-radius: 1rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    width: 94.7%;
+}
+
+.header img{
+    height: 80px;
+    float: left;
+}
+
+.header h1{
+    margin: 20px;
+    text-align: center;
+    font-size: larger;
+    color: white;
+    float: left;
+}
+.header p{
+    color: white;
+    text-align: center;
+}
+/* css code header */
+
+/* This is the css code for the map */
+#pupmap{
+    height: 425px;
+    width: 566px;
+    border-radius: 1rem;
+    position: relative;
+    display: block;
+}
+/* This the css code for the map */
+
+/* code for the pop up box */
+#wrapper{
+    width: 240px;
+}
+
+#wrapper img{
+    margin: 9px;
+    width: 220px;
+    height: 129px;
+}
+
+#wrapper h2{
+    color: white;
+    margin: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#wrapper p{
+    color: white;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 13px;
+    padding: 0 5px 0 5px;
+}
+
+#display{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    border: #000 solid;
+    background: linear-gradient(gold, maroon);
+    border-radius: 1rem;
+    box-shadow: 0 2rem 3rem #000000c0;
+}
+/* code for the pop up box */
